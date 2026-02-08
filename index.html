@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>ارتباط با ما | شاه اپل استور</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --accent:#34d1ff;
+      --glass-bg:rgba(255,255,255,.08);
+      --glass-border:rgba(255,255,255,.25);
+      --radius:1.6rem;
+    }
+
+    body{
+      margin:0;
+      min-height:100dvh;
+      font-family:"Vazirmatn",sans-serif;
+      color:#fff;
+      display:grid;
+      place-content:center;
+      padding:2rem;
+      background:#041426 url("background.jpg") center/cover fixed;
+    }
+
+    .card{
+      width:min(420px,90vw);
+      padding:2.6rem 2rem;
+      background:var(--glass-bg);
+      border:1px solid var(--glass-border);
+      border-radius:var(--radius);
+      backdrop-filter:blur(22px);
+      box-shadow:0 10px 40px rgba(0,0,0,.6);
+      text-align:center;
+    }
+
+    .logo{
+      width:280px;
+      margin:0 auto 1rem;
+    }
+
+    h1{
+      font-size:1.7rem;
+      margin:.4rem 0 1.6rem;
+      font-weight:600;
+      color:#000000;
+    }
+
+    /* مشخصات */
+    .specs-box{
+      padding:1.4rem 1.2rem;
+      background:rgba(255,255,255,.05);
+      border:1px dashed rgba(255,255,255,.4);
+      border-radius:1.2rem;
+      text-align:right;
+    }
+
+    .spec-row{
+      display:flex;
+      gap:.6rem;
+      margin:.7rem 0;
+      font-size:.95rem;
+    }
+
+    .label{
+      min-width:95px;
+      color:#000000;
+      font-weight:600;
+    }
+
+    .value{
+      color:#000000;
+    }
+
+    .value a{
+      color:#000000;
+      text-decoration:none;
+      font-weight:500;
+    }
+
+    .value a:hover{
+      text-decoration:underline;
+    }
+
+    /* دکمه‌ها */
+    .social-buttons{
+      margin-top:1.4rem;
+      display:flex;
+      gap:.8rem;
+      justify-content:center;
+    }
+
+    .btn{
+      flex:1;
+      padding:.7rem 0;
+      border-radius:1rem;
+      background:rgba(255,255,255,.08);
+      border:1px solid rgba(255,255,255,.25);
+      color:#fff;
+      text-decoration:none;
+      font-size:.95rem;
+      transition:.25s;
+    }
+
+    .btn:hover{
+      background:rgba(255,255,255,.18);
+      transform:translateY(-2px);
+    }
+
+    .ltr{
+      direction:ltr;
+      text-align:left;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="card">
+
+  <img src="»LOGO.svg" alt="لوگو" class="logo">
+
+  <h1>شاه اپل استور</h1>
+
+  <div class="specs-box">
+
+    <div class="spec-row">
+      <span class="label">نام:</span>
+      <span class="value">Shah Apple Store</span>
+    </div>
+
+    <div class="spec-row">
+      <span class="label">آدرس:</span>
+      <span class="value">هرات، چوک گلها، ملی سنتر، طبقه همکف، دوکان نمبر3</span>
+    </div>
+
+    <div class="spec-row">
+      <span class="label">تماس:</span>
+      <span class="value ltr">
+        <a href="tel:0795276060">0795276060</a><br>
+        <a href="tel:0791924865">0791924865</a>
+      </span>
+    </div>
+
+  </div>
+
+  <div class="social-buttons">
+    <a class="btn" href="https://instagram.com/shahapplestore" target="_blank">
+      اینستاگرام
+    </a>
+
+    <a class="btn" href="https://t.me/shah_apple_store" target="_blank">
+      تلگرام
+    </a>
+  </div>
+
+</div>
+
+</body>
+</html>
